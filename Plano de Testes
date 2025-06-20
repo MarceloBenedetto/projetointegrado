@@ -7,20 +7,39 @@ Verificar se todas as funcionalidades do sistema estão funcionando conforme os 
 - Site do Tinkercad
 - É uma plataforma online e gratuita, oferecida pela Autodesk, ela permite simulação de circuitos eletrônicos e programação para robótica, especialmente para Arduino, transformando-se em uma plataforma ideal, uma vez que caso se faça algo errado nenhum componente físico é perdido. 
 
-## 3. Procedimentos
-1. Separar todos os componentes necessários.
-2. Inserir o código no campo pertinente.
-3. Conectar todos os componentes em seus devidos locais indicados no código, seguir a ligação que consta na imagem disponibilizada caso se tenha dúvidas.
-4. Fazer leitura do código para entendimento do que cada linha representa assim como sua funcionalidade sobre cada componente.
-5. Executar o código.
-6. Verificar se o que foi proposto no código realmente aconteceu conforme o proposto inicialmente.
+## 3. Casos de testes
+
+| Descrição                           | Entrada (simulada)   | Comportamento Esperado                              |
+|-------------------------------------|----------------------|-----------------------------------------------------|
+| Temperatura entre 15 °C e 25 °C     | Sensor simulado = 20 | Nenhum LED de alerta acende                         |
+| Temperatura abaixo de 15 °C         | Sensor simulado < 15 | LED vermelho acende (Alerta de temperatura baixa)   |
+| Temperatura acima de 25 °C          | Sensor simulado > 25 | LED verde acende (Alerta de temperatura alta)       |
+| Dysplay informa Umidade             | Captar Umidade       | Mostrar a umidade do ambinete                       |
+
+
+## 4 .Procedimentos
+1. Separar todos os componentes eletrônicos necessários no Tinkercad.
+2. Inserir o código fonte no simulador.
+3. Conectar todos os componentes conforme o esquema do projeto.
+4. Fazer leitura do código para entender o papel executado por cada componente.
+5. Executar a simulação.
+6. Alterar os valores simulados nos senssores, afim de verificar e validar os comportamentos esperados.
+7. Observar se a reação dos LEDS corresponde ao que foi definido nos testes.
 
 ## 5. Critérios de Aceitação
-- Todos os testes os testes devem ter ocorrido conforme o proposto e com sucesso.
+- Todos os testes devem ter ocorrido conforme o planejado e com sucesso.
 - Nenhum tipo de falha deve ocorrer.
+- Os Leds devem acender somente nos períodos determinados e corretos do intervalo definido para cada temperatura.
 - Se por ventura ocorra alguma falha, que ela não prejudique o funcionamento do código e da simulação do projeto.
 
 ## 6. Observações
-- Realizar testes e ajuestes no simulador.
+- Realizar testes de diferentes variações de temperaturas, para que deste modo se verifique a estabilidade e funcionalidade do código.
 - Todos os testes e ajustes realizados devem ter 100% de eficácia.
-- Realizar testes físicos, mantendo exatamente a mesma ligação do que se foi realizado no simulador.
+- Após validação dos testes no simulador, realizar a montagem do projeto fisicamente mantendo exatamente as mesmas conexões.
+- Se, por ventura algum teste falhar, revisar o código e conexões antes de prosseguir.
+
+## 7. Funcionalidades em desenvolvimento
+- Melhoria futura
+- Pretende-se adicionar uma funcionalidade para alternar manualmente os leds ou incluir um terceiro led que acende quando um dos outros dois também acende, como se fosse um led de alerta.
+- Parte do código já foi esboçada, porém ainda não foi concluída ou validada.
+- O trecho cidado está comentado no código principal.
