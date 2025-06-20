@@ -62,7 +62,9 @@ void setup()
 void loop()
 {
 
- // talvez colocar um botão para desligar os leds após estes acessos, como se fosse um alerta
+  // Melhorias
+ // Trecho ainda em desenvolvimento para controle manual via botão ou led de alerta.
+	
 	
  /* atual_BT= armazena(ultimo_BT);
   if (ultimo_BT==LOW && atual_BT==HIGH)
