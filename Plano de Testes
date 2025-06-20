@@ -1,0 +1,26 @@
+# Plano de Testes do Projeto Integrado
+
+## 1. Objetivo
+Verificar se todas as funcionalidades do sistema estão funcionando conforme os requisitos definidos no projeto, como por exemplo leds acendendo ao chegar na temperatura informada pelo sensor.
+
+## 2. Ambiente de Testes
+- Site do Tinkercad
+- É uma plataforma online e gratuita, oferecida pela Autodesk, ela permite simulação de circuitos eletrônicos e programação para robótica, especialmente para Arduino, transformando-se em uma plataforma ideal, uma vez que caso se faça algo errado nenhum componente físico é perdido. 
+
+## 3. Procedimentos
+1. Separar todos os componentes necessários.
+2. Inserir o código no campo pertinente.
+3. Conectar todos os componentes em seus devidos locais indicados no código, seguir a ligação que consta na imagem disponibilizada caso se tenha dúvidas.
+4. Fazer leitura do código para entendimento do que cada linha representa assim como sua funcionalidade sobre cada componente.
+5. Executar o código.
+6. Verificar se o que foi proposto no código realmente aconteceu conforme o proposto inicialmente.
+
+## 5. Critérios de Aceitação
+- Todos os testes os testes devem ter ocorrido conforme o proposto e com sucesso.
+- Nenhum tipo de falha deve ocorrer.
+- Se por ventura ocorra alguma falha, que ela não prejudique o funcionamento do código e da simulação do projeto.
+
+## 6. Observações
+- Realizar testes e ajuestes no simulador.
+- Todos os testes e ajustes realizados devem ter 100% de eficácia.
+- Realizar testes físicos, mantendo exatamente a mesma ligação do que se foi realizado no simulador.
