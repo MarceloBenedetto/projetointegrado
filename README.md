@@ -23,12 +23,14 @@ Este projeto lê dados de **temperatura e umidade** usando sensores analógicos 
 - Se a temperatura for **abaixo de 15 °C**, acende o **LED vermelho**.
 - Se for **acima de 25 °C**, acende o **LED verde**.
 
+- OBS: Caso preferir, pode-se alterar os valores das temperaturas para acionamento de cada LED, deixei cada linha comentada para facilitar no entendimento do código.
+
 ---
 
 ## 💻 Código
 
-O código está no arquivo `sensor_de_umidade_e_temperatura.ino`.  
-Ele está organizado em blocos:
+O código está no arquivo sensor_de_umidade_e_temperatura.ino.  
+Organizado em blocos da seguinte forma:
 - Inicialização de variáveis e display
 - Leitura dos sensores
 - Cálculo das grandezas
