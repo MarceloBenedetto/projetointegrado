@@ -1,6 +1,6 @@
 # 🌡️ Projeto: Sensor de Umidade e Temperatura com Arduino / Pode-se utilizar para controlar temperatura e umidade de uma estufa
 
-Este projeto lê dados de **temperatura e umidade** usando sensores analógicos conectados a um **Arduino Uno** ele exibe as informações em um **display LCD 16x2**, além disto ele também aciona LEDS de alerta para faixas específicas de temperatura, pode-se utilizar o potenciômetro para regular a umidade.
+Este projeto lê os dados de **temperatura e umidade** através do uso de sensores analógicos que são conectados a um **Arduino Uno**, ele exibe as informações em um **display LCD 16x2**, além disto ele também aciona LEDS de alerta para faixas específicas de temperatura, pode-se utilizar o potenciômetro para regular a umidade.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
