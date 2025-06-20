@@ -1,7 +1,7 @@
 # Plano de Testes do Projeto Integrado
 
 ## 1. Objetivo
-Verificar se todas as funcionalidades do sistema estão funcionando conforme os requisitos definidos no projeto, como por exemplo leds acendendo ao chegar na temperatura informada pelo sensor.
+Verificar se todas as funcionalidades do sistema estão funcionando conforme os requisitos definidos no projeto, como por exemplo, leds acendendo ao chegar na temperatura informada pelo sensor.
 
 ## 2. Ambiente de Testes
 - Site do Tinkercad
@@ -14,7 +14,7 @@ Verificar se todas as funcionalidades do sistema estão funcionando conforme os 
 | Temperatura entre 15 °C e 25 °C     | Sensor simulado = 20 | Nenhum LED de alerta acende                         |
 | Temperatura abaixo de 15 °C         | Sensor simulado < 15 | LED vermelho acende (Alerta de temperatura baixa)   |
 | Temperatura acima de 25 °C          | Sensor simulado > 25 | LED verde acende (Alerta de temperatura alta)       |
-| Dysplay informa Umidade             | Captar Umidade       | Mostrar a umidade do ambinete                       |
+| Display informa Umidade             | Sensor de Umidade    | Mostrar a umidade do ambinete                       |
 
 
 ## 4 .Procedimentos
@@ -23,14 +23,14 @@ Verificar se todas as funcionalidades do sistema estão funcionando conforme os 
 3. Conectar todos os componentes conforme o esquema do projeto.
 4. Fazer leitura do código para entender o papel executado por cada componente.
 5. Executar a simulação.
-6. Alterar os valores simulados nos senssores, afim de verificar e validar os comportamentos esperados.
+6. Alterar os valores simulados nos sensores, a fim de verificar e validar os comportamentos esperados.
 7. Observar se a reação dos LEDS corresponde ao que foi definido nos testes.
 
 ## 5. Critérios de Aceitação
 - Todos os testes devem ter ocorrido conforme o planejado e com sucesso.
 - Nenhum tipo de falha deve ocorrer.
 - Os Leds devem acender somente nos períodos determinados e corretos do intervalo definido para cada temperatura.
-- Se por ventura ocorra alguma falha, que ela não prejudique o funcionamento do código e da simulação do projeto.
+- Se por ventura ocorrer alguma falha, que ela não prejudique o funcionamento do código e da simulação do projeto.
 
 ## 6. Observações
 - Realizar testes de diferentes variações de temperaturas, para que deste modo se verifique a estabilidade e funcionalidade do código.
