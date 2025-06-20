@@ -75,8 +75,8 @@ Abaixo imagem do meu projeto no Tinkercad.
 ![Image](https://github.com/user-attachments/assets/0a3958da-0ec1-4313-a913-7cba27383bac)
 
 
-## Link projeto tinkercad
+## 🔗 Link do Projeto no Tinkercad
 
-Aqui tem o link do projeto afim da realização de testes.
+Acesse o projeto para testes
 
-<https://www.tinkercad.com/things/9n8Md5cVXmk-sensor-de-umidade-e-temperatura?sharecode=eC2_ypXInHbc_Nudv_gMrmj73MbiQV74NYA2Exbd6H4>
+(https://www.tinkercad.com/things/9n8Md5cVXmk-sensor-de-umidade-e-temperatura?sharecode=eC2_ypXInHbc_Nudv_gMrmj73MbiQV74NYA2Exbd6H4)
