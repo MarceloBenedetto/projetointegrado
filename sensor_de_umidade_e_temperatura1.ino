@@ -9,7 +9,7 @@ LiquidCrystal LCD(9,11,6,5,4,3);
 // Variáveis
 
 int LED=2;
-int BT=7;
+//int BT=7;
 int SensorTempPino=0;
 int SensorUmidPino=1;
 int porcem=0;
@@ -61,11 +61,14 @@ void setup()
 
 void loop()
 {
-  
+
+ // talvez colocar um botão para desligar os leds após estes acessos, como se fosse um alerta
+	
  /* atual_BT= armazena(ultimo_BT);
   if (ultimo_BT==LOW && atual_BT==HIGH)
   {
      ledON= !ledON;
+     delay(1000);
   
   }
   
@@ -80,7 +83,9 @@ void loop()
    Tensao/=1024;
 
    // Formula para converter a tensao lida em Graus Celsius
+   // ou para testes alterar o valor *100 assim você tem uma temp > ou < 
    float TemperaturaC=(Tensao-0.5)*100;
+   //float TemperaturaC=(Tensao-0.6)*100; nessa linha para teste força temperatura a mudar além do ambiente aciona o led
 
    // Muda o cursor para a primeira coluna e segunda linha do LCD
    LCD.setCursor(0,1);
