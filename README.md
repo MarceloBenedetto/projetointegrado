@@ -29,6 +29,18 @@ Este projeto lê os dados de **temperatura e umidade** através do uso de sensor
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## ✅ Requisitos Funcionais
+
+- O sistema deve medir a temperatura do ambiente com um sensor analógico.
+- O sistema deve medir a umidade do ambiente com o mesmo sensor analógico.
+- Tanto a leitura de umidade como temperatura devem ser exibidas no display LCD.
+- O led vermelho acende somente quando a temperatura for inferior a 15 °C.
+- O led verde acende somente quando a temperatura for superior a 25 °C.
+- Temperatura entre 15 °C e 25 °C nenhum led deve acender.
+- Os valores de referência podem ser ajustados diretamente no código.
+- O projeto deve ser testado no ambiente virtual e posteriormente se possível no ambiente físico.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## 💻 Código
 
 O código está no arquivo sensor_de_umidade_e_temperatura.ino.  
@@ -70,7 +82,7 @@ Marcelo Benedetto
 
 ## 📷 Imagens
 
-Abaixo imagem do meu projeto no Tinkercad.
+Abaixo imagem do meu projeto no Tinkercad onde mostra a ligação do circuito e suas conexões.
 
 ![Image](https://github.com/user-attachments/assets/0a3958da-0ec1-4313-a913-7cba27383bac)
 
